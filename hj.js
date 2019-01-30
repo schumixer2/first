@@ -1,7 +1,4 @@
-console.log("vhgvchgcv");
-1
-2
-3
-4
-5
-6
+var str = '2017-05-16 13:45';
+var reg = /\d{2,}/g;
+var res = str.match(reg);
+console.log(res);
